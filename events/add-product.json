@@ -1,0 +1,45 @@
+{
+  "resource": "/products",
+  "path": "/products",
+  "httpMethod": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "X-Amz-Date": "20220316T000000Z",
+    "Authorization": "Bearer YOUR_AUTH_TOKEN",
+    "X-Api-Key": "YOUR_API_KEY"
+  },
+  "multiValueHeaders": {
+    "Content-Type": ["application/json"],
+    "X-Amz-Date": ["20220316T000000Z"],
+    "Authorization": ["Bearer YOUR_AUTH_TOKEN"],
+    "X-Api-Key": ["YOUR_API_KEY"]
+  },
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "accountId": "123456789012",
+    "apiId": "abcdefghij",
+    "authorizer": null,
+    "httpMethod": "POST",
+    "identity": {
+      "accessKey": null,
+      "accountId": null,
+      "caller": null,
+      "sourceIp": "192.168.1.1",
+      "user": null,
+      "userAgent": "Custom User Agent String",
+      "userArn": null
+    },
+    "path": "/products",
+    "requestId": "c1234567-89ab-cdef-0123-456789abcdef",
+    "requestTime": "16/Mar/2022:00:00:00 +0000",
+    "requestTimeEpoch": 1647388800000,
+    "resourceId": "abcdefg123",
+    "resourcePath": "/products",
+    "stage": "dev"
+  },
+  "body": "{\"productId\":\"prod2\",\"productName\":\"nestle munch\",\"price\":\"10\",\"category\":\"food\",\"inventory\":\"100\"}",
+  "isBase64Encoded": false
+}
